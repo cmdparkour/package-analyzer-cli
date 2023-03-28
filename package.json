@@ -1,0 +1,27 @@
+{
+  "name": "package-analyzer-cli",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "package-json-analyzer": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "dev": "node index.js",
+    "build": "tsc"
+  },
+  "type": "module",
+  "author": "",
+  "files": [
+    "!result.html"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "inquirer": "^9.1.5"
+  },
+  "devDependencies": {
+    
+  }
+}
