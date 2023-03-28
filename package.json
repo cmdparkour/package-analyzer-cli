@@ -1,11 +1,12 @@
 {
   "name": "package-analyzer-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
     "package-json-analyzer": "index.js"
   },
+  "repository": "https://github.com/cmdparkour/package-analyzer-cli",
   "preferGlobal": true,
   "scripts": {
     "dev": "node index.js",
